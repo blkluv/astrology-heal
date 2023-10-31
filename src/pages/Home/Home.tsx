@@ -44,7 +44,7 @@ export default function Home() {
       </section>
 
       <section className="home__second-section">
-        <h2 className="home__heading">HealXYZ Q&A game: Discover essential info.</h2>
+        <h2 className="home__heading">Q&A Game Guide</h2>
         <ul className="home__list">
           <li className="home__list-item">
             <img src={moth} className="home__icon invert" alt="Moth"></img>
