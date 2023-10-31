@@ -13,8 +13,8 @@ export default function Home() {
     <div className="home">
       <section className="home__first-section">
         <div className="home__info">
-          <h1 className="home__logo">HealXYZ☾</h1>
-          <h2 className="home__heading">Let's Heal The World.</h2>
+          <h1 className="home__logo">heal☾</h1>
+          <h2 className="home__heading">Let's Heal The World</h2>
           <p className="home__subheading">
              Join our quest to heal the world with an easy Q&A game. 
              Subscribe and answer spiritual healing questions to level 
