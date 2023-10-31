@@ -1,34 +1,40 @@
 export const accordionData = [
   {
-    title: 'Project',
-    content: `This is my final project for the FooCoding program held in Malmö between February and October 2023. 
-    The application I developed focuses on astrology, tarot and numerology with the help of external and internal data
-    simultaneously.`,
+    title: 'Purpose',
+    content: `We can all agree on one universal truth: the world needs healing, also known as HealN.
+    Our solution takes the form of a game notices the clock, 1:11✨, where every player has the chance
+    to become a Master HealN and top our HealXYZ leaderboard. By assisting others through Q&A sessions
+    and leveling up, you'll earn Healn Crystals, $LUV, and various other prizes. The ultimate rewards
+    will be airdropped directly into players' game accounts. Start HealN in the Waiting Room for free.`,
   },
   {
-    title: 'Author',
-    content: `My name is Dana Xenia Marasca and I am an Italian full-stack developer based in Malmö.`,
+    title: 'Platforms',
+    content: `HealXYZ is played on premium Discord, TikTok, Instagram, and LinkedIn socials @healxyz.
+    Support our purpose by sharing our content and tagging us @healxyz with the hashtag #healxyz`,
   },
   {
-    title: 'Technologies',
-    content: `The technologies used in this project are React, Typescript and CSS.`,
+    title: 'Seeker Subscription',
+    content: `Subscribe to Seeker access the channels of Ask An Expert, Book Club and Articles. As well as 
+    a the Waiting Room channels of Intro, General and Spiritual Insights.
+    <a href="https://discord.gg/EMrwEPwcQU">Subscibe</a> to a new way of HealN.`,
   },
   {
-    title: 'Requirements',
-    content: `The application needs to meet several requirements. Each week, new topics must be implemented.
-    Applications must be deployed at the end. No external package is allowed other than React and React Router
-    Dom. The application must fetch data through an API. The application needs to be fully
-    functional on the deployed version.`,
+    title: 'Apprentice Subscription',
+    content: `Subscribe to "Apprentice" to gain access to channels such as "Seeker," "Waiting Area," and 
+    the "A-Lounge," as well as "Energy HealN," "Tarot," and "Numerology."
+    <a href="https://discord.gg/EMrwEPwcQU">Subscibe</a> to a new way of HealN.`,
   },
   {
-    title: 'Checkpoints',
-    content: `The weekly checkpoints help to build the application on a consistent basis. The following
-    checkpoints need to be met: inclusion of type-safe components, hooks(useState, useEffect, useRef, useCallback, useMemo),
-    DOM events, conditional rendering and list rendering, react-router-dom(and navigation between at least two pages), deployment.`,
+    title: 'Master Subscription',
+    content: `Subscribe to "Master" to gain access to channels for Hahz & Candy (Spiritual Counselours), 
+    Lela Hutchinsom (certified) Gemologist and spritual coach, as well as "Apprentice," "Seeker," "Waiting Area,"
+    and the "Advanced Meditation," as well as "Crystal Therapy," "Spiritual Counseling," and "Spiritual 
+    Currency." <a href="https://discord.gg/EMrwEPwcQU">Subscibe</a> to a new way of HealN`,
   },
   {
-    title: 'Inspiration and Credits',
-    content: `A few websites inspired the creation of this application. To name the most prevalent ones, Co-star app,
-    Horoscope.com and Astrology.com. Credits to JPS Tarot API and @themuuln on Github for the data used in this website.`,
+    title: 'Creators',
+    content: `A married couple of twin flames, known as "The Wizard of Hahz" and "Dr. Candy," or simply "Hahz & Candy <a href="https://instagram.com/hahzcandy">Instagram</a>
+    by way of their blockchain non-profit BLK LUV org <a href="https://blkluv.org">BLK LUV org</a>.
+    `,
   },
 ];

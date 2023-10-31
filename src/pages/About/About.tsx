@@ -14,10 +14,10 @@ export default function About() {
   return (
     <section className="about">
       <h1>About</h1>
-      <h3>So what is Lunar, really?</h3>
+      <h3>How do I play this Heal X, Y, & Z game</h3>
       <p className="about__info">
-        In this section I will walk you through all you need to know about my
-        website.
+        In this section I will walk you through all you need to know about the
+        game.
       </p>
       <img src={shapes} alt="Geometric shapes" className="about__image" />
       <div className="about__accordion">

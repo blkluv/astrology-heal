@@ -1,81 +1,128 @@
-import { ChangeEvent, FormEvent, useState } from 'react';
+import React from 'react';
 
-import Button from '../Button/Button';
-
-import './SubscribeForm.css';
-
-interface FormProps {
-  onSubmit: (data: FormData) => void;
-}
-
-export interface FormData {
-  firstName: string;
-  birthday: Date | string;
-  email: string;
-}
-
-export const SubscribeForm = ({ onSubmit }: FormProps) => {
-  const [formData, setFormData] = useState<FormData>({
-    firstName: '',
-    birthday: '',
-    email: '',
-  });
-
-  const initialFormData: FormData = {
-    firstName: '',
-    birthday: '',
-    email: '',
-  };
-
-  const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = event.target;
-
-    setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
-  };
-
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-
-    if (!formData.firstName || !formData.birthday || !formData.email) {
-      alert('Please fill in all fields.');
-      return;
-    }
-
-    setFormData(initialFormData);
-
-    onSubmit(formData);
-  };
-
+const ContactForm = () => {
   return (
-    <form method="post" onSubmit={handleSubmit} className="subscribe-form">
-      <label>
-        First Name:{' '}
-        <input
-          name="firstName"
-          value={formData.firstName}
-          onChange={handleInputChange}
-        />
-      </label>
-      <label>
-        Birthday:{' '}
-        <input
-          type="date"
-          name="birthday"
-          value={formData.birthday.toString().split('T')[0]}
-          onChange={handleInputChange}
-        />
-      </label>
-      <label>
-        Email:{' '}
-        <input
-          name="email"
-          value={formData.email}
-          onChange={handleInputChange}
-        />
-      </label>
-      <Button type="submit" className="subscribe-form__button">
-        Submit form
-      </Button>
-    </form>
+    <div className="flex items-center min-h-screen bg-gray-50 dark:bg-gray-900">
+      <div className="container mx-auto">
+        <div className="max-w-md mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+          <div className="text-center">
+            <h1 className="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
+              Contact Us
+            </h1>
+            <p className="text-gray-400 dark:text-gray-400">
+              Fill up the form below to send us a message.
+            </p>
+          </div>
+          <div className="m-7">
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              id="form"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="b5d8314d-e693-474c-9602-4eaecd6882bc"
+              />
+              <input
+                type="hidden"
+                name="subject"
+                value="New Submission from Web3Forms"
+              />
+              <input
+                type="hidden"
+                name="redirect"
+                value="https://web3forms.com/success"
+              />
+              <input
+                type="checkbox"
+                name="botcheck"
+                id=""
+                style={{ display: 'none' }}
+              />
+              <div className="mb-6">
+                <label
+                  htmlFor="name"
+                  className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                >
+                  Full Name
+                </label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="John Doe"
+                  required
+                  className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                />
+              </div>
+              <div className="mb-6">
+                <label
+                  htmlFor="email"
+                  className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                >
+                  Email Address
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="info@healxyz.com"
+                  required
+                  className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                />
+              </div>
+              <div className="mb-6">
+                <label
+                  htmlFor="phone"
+                  className="text-sm text-gray-600 dark:text-gray-400"
+                >
+                  Phone Number
+                </label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="+1 (555) 1234-567"
+                  required
+                  className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                />
+              </div>
+              <div className="mb-6">
+                <label
+                  htmlFor="message"
+                  className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                >
+                  Your Message
+                </label>
+
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder="Your Message"
+                  className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                  required
+                ></textarea>
+              </div>
+              <div className="mb-6">
+                <button
+                  type="submit"
+                  className="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none"
+                >
+                  Send Message
+                </button>
+              </div>
+              <p
+                className="text-base text-center text-gray-400"
+                id="result"
+              ></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
+
+export default ContactForm;

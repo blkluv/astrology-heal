@@ -27,12 +27,13 @@ export default function Home() {
     <div className="home">
       <section className="home__first-section">
         <div className="home__info">
-          <h1 className="home__logo">lunar☾</h1>
-          <h2 className="home__heading">Astrology in your pocket.</h2>
+          <h1 className="home__logo">HealXYZ☾</h1>
+          <h2 className="home__heading">Let's Heal The World.</h2>
           <p className="home__subheading">
-            Welcome to the mystical world of Lunar, your gateway to unlocking
-            the secrets of the cosmos and discovering the hidden truths that lie
-            within the Tarot cards.
+             Join our quest to heal the world with an easy Q&A game. 
+             Subscribe and answer spiritual healing questions to level 
+             up, earn $LUV, crystals, and gain access to live events. 
+             Who's going to become the master Heal®️✨?
           </p>
           <Button
             as="link"
@@ -50,39 +51,39 @@ export default function Home() {
       </section>
 
       <section className="home__second-section">
-        <h2 className="home__heading">What can you find on Lunar?</h2>
+        <h2 className="home__heading">HealXYZ Q&A game: Discover essential info.</h2>
         <ul className="home__list">
           <li className="home__list-item">
             <img src={moth} className="home__icon invert"></img>
             <h3>Zodiac Signs</h3>
             <p>
-              Dive into the cosmic mysteries of astrology on our website.
-              Explore your birth chart, discover the secrets of your sun, moon,
-              and rising signs, and gain insights into your life's path based on
-              the movements of celestial bodies. Unlock the power of the stars
-              and navigate your destiny with our expert astrologers.
+              Embark on a cosmic adventure within our Discord game. Explore your
+              birth chart, uncover the secrets of your sun, moon, and rising signs,
+              and gain insights into your in-game destiny influenced by celestial
+              movements. Master the art of navigating your fate with guidance from
+              our expert players.
             </p>
           </li>
           <li className="home__list-item">
             <img src={butterfly} className="home__icon invert"></img>
             <h3>Tarot Cards</h3>
             <p>
-              Unveil the enigmatic world of tarot on our website. Experience the
-              art of divination through tarot card readings, learn the symbolism
-              behind each card, and receive guidance on love, career, and
-              spirituality. Our skilled tarot readers are here to help you
-              uncover the hidden wisdom within the cards.
+              Explore the mystic realm of tarot online. Delve into the practice 
+              of divination with tarot card readings, gain insight into the meaning
+              of each card, and receive counsel on matters of love, career, and
+              spirituality. Our Master HealR tarot readers are ready to assist
+              you in revealing the concealed wisdom held by the cards.
             </p>
           </li>
           <li className="home__list-item">
             <img src={butterflyTwo} className="home__icon"></img>
             <h3>Numerology</h3>
             <p>
-              Unlock the mystical significance of numbers with our numerology
-              resources. Explore the vibrations and energies associated with
-              your name and birthdate, delve into the secrets of numerological
-              calculations, and gain profound insights into your life's purpose.
-              Join us on this journey of self-discovery.
+              Discover the hidden power of numbers through our numerology tools.
+              Delve into the frequencies and forces linked to your name and birthdate,
+              explore the mysteries of numerical computations, and attain deep
+              understandings of your life's meaning. Embark on this voyage of
+              self-exploration to Heal X, Y & Z.
             </p>
           </li>
         </ul>

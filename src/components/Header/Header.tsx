@@ -29,8 +29,8 @@ export default function Header() {
     <header>
       <nav className={'nav'}>
         <div className="nav__options">
-          <NavLink className="logo" to="/">
-            lunar
+          <NavLink className="logo" to="https://healxyz.com">
+            HealXYZ
           </NavLink>
           {/* <ThemeToggle /> */}
           <div className="menu" onClick={closeMenu}>

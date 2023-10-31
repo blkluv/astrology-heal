@@ -6,16 +6,20 @@ Deployed version of [LUNAR](lunar-app.netlify.app/).
 
 ## Table of contents
 
-- [Overview](#overview)
-- [Built with](#built-with)
-- [Features](#features)
-- [Getting started](#getting-started)
-- [Print Screens](#print-screens)
-- [Conclusion](#conclusion)
+- [LUNAR - Astrology, Tarot and Numerology App](#lunar---astrology-tarot-and-numerology-app)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Built with](#built-with)
+  - [Features](#features)
+  - [Getting started](#getting-started)
+  - [Print Screens](#print-screens)
+    - [Light/Dark Mode Comparison](#lightdark-mode-comparison)
+    - [Responsive design](#responsive-design)
+  - [Conclusion](#conclusion)
 
 ## Overview
 
-Lunar is a user-friendly app featuring a responsive design that seamlessly transitions between light and dark modes. It's perfect for individuals who want to explore astrology-related subjects but are new to the field. Lunar offers a comprehensive zodiac sign library, a tarot card collection, personalized tarot card readings, and a numerology calculator based on birth date and name.
+HealXYZ is a user-friendly app featuring a responsive design that seamlessly transitions between light and dark modes. It's perfect for individuals who want to explore astrology-related subjects but are new to the field. Lunar offers a comprehensive zodiac sign library, a tarot card collection, personalized tarot card readings, and a numerology calculator based on birth date and name.
 
 ## Built with
 
