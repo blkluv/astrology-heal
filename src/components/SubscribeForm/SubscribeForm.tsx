@@ -1,5 +1,3 @@
-import React from 'react';
-
 const SubscribeForm = () => {
   return (
     <div className="flex items-center min-h-screen bg-gray-50 dark:bg-gray-900">
