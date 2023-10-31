@@ -16,8 +16,7 @@ export default function About() {
       <h1>About</h1>
       <h3>How do I play this Heal X, Y, & Z game</h3>
       <p className="about__info">
-        In this section I will walk you through all you need to know about the
-        game.
+        In this section we will walk you through all you need to know about HealXYZ.
       </p>
       <img src={shapes} alt="Geometric shapes" className="about__image" />
       <div className="about__accordion">
