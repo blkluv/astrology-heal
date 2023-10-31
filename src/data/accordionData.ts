@@ -5,7 +5,8 @@ export const accordionData = [
     Our solution takes the form of a game notices the clock, 1:11✨, where every player has the chance
     to become a Master HealN and top our HealXYZ leaderboard. By assisting others through Q&A sessions
     and leveling up, you'll earn Healn Crystals, $LUV, and various other prizes. The ultimate rewards
-    will be airdropped directly into players' game accounts. Start HealN in the Waiting Room for free.`,
+    will be airdropped directly into players' game accounts. Support healers with a 
+    <a href="https://tip.luvnft.com">Tip</a> and $LUV. Start HealN in the Waiting Room for free.`,
   },
   {
     title: 'Platforms',

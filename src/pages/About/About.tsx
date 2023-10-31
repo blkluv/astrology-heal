@@ -14,7 +14,7 @@ export default function About() {
   return (
     <section className="about">
       <h1>About</h1>
-      <h3>How do I play this Heal X, Y, & Z game</h3>
+      <h3>How do I Heal X, Y, & Z</h3>
       <p className="about__info">
         In this section we will walk you through all you need to know about HealXYZ.
       </p>

@@ -19,8 +19,7 @@ export default function Home() {
              Join our quest to heal the world with an easy Q&A game. 
              Subscribe and answer spiritual healing questions to level 
              up, earn $LUV, crystals, and gain access to live events.
-             Support healers with a <a href="https://tip.luvnft.com">Tip</a> 
-              and $LUV. Level up to become a master Heal®️✨?
+             Level up to become a master Heal®️✨?
           </p>
           <Button
             as="link"
