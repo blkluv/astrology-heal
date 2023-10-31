@@ -1,26 +1,26 @@
 .about {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
 .about__info {
   width: 90%;
-  text-align: start;
+  text-align: center; /* Center text on all screen sizes */
 }
 
 .about img {
-  width: 15rem;
+  width: 50%; /* Adjust the image width for mobile screens */
+  max-width: 15rem; /* Define a maximum width for larger screens */
 }
 
 .about {
-  padding-bottom: var(--space-40);
+  padding: var(--space-20) 0; /* Adjust padding for mobile screens */
 }
 
 @media (min-width: 768px) {
-  .about__info {
-    text-align: center;
+  .about img {
+    width: 15rem; /* Restore the image width for larger screens */
   }
 }
