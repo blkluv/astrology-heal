@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ContactForm = () => {
+const SubscribeForm = () => {
   return (
     <div className="flex items-center min-h-screen bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto">
@@ -10,7 +10,7 @@ const ContactForm = () => {
               Start HealN
             </h1>
             <p className="text-gray-400 dark:text-gray-400">
-              Start in the Waiting Area for free, subscribe to start your quest. 
+              Start in the Waiting Area for free, subscribe to start your quest.
             </p>
           </div>
           <div className="m-7">
@@ -27,4 +27,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default SubscribeForm;

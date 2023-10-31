@@ -5,24 +5,10 @@ import butterflyTwo from '../../assets/images/butterfly-2.png';
 import moth from '../../assets/images/moth.png';
 
 import Button from '../../components/Button/Button';
-import {
-  FormData,
-  SubscribeForm,
-} from '../../components/SubscribeForm/SubscribeForm';
 
 import './Home.css';
 
 export default function Home() {
-  const handleSubmit = (formData: FormData) => {
-    alert(`Your subscription request has been submitted!
-
-    Your Data:
-    First Name: ${formData.firstName}
-    Birthday: ${formData.birthday}
-    Email: ${formData.email}
-`);
-  };
-
   return (
     <div className="home">
       <section className="home__first-section">
@@ -32,8 +18,9 @@ export default function Home() {
           <p className="home__subheading">
              Join our quest to heal the world with an easy Q&A game. 
              Subscribe and answer spiritual healing questions to level 
-             up, earn $LUV, crystals, and gain access to live events. 
-             Who's going to become the master Heal®️✨?
+             up, earn $LUV, crystals, and gain access to live events.
+             Support healers with a <a href="https://tip.luvnft.com">Tip</a> 
+             and $LUV. Level up to become a master Heal®️✨?
           </p>
           <Button
             as="link"
@@ -41,6 +28,13 @@ export default function Home() {
             url={'/about'}
             target={'_self'}
             className="home__button"
+          />
+          <Button
+            as="link"
+            children="Subscribe →"
+            url={'https://discord.gg/EMrwEPwcQU'} // Discord invite link
+            target={'_blank'}
+            className="home__button" // You may want to apply appropriate styles
           />
         </div>
         <img
@@ -54,7 +48,7 @@ export default function Home() {
         <h2 className="home__heading">HealXYZ Q&A game: Discover essential info.</h2>
         <ul className="home__list">
           <li className="home__list-item">
-            <img src={moth} className="home__icon invert"></img>
+            <img src={moth} className="home__icon invert" alt="Moth"></img>
             <h3>Zodiac Signs</h3>
             <p>
               Embark on a cosmic adventure within our Discord game. Explore your
@@ -65,7 +59,7 @@ export default function Home() {
             </p>
           </li>
           <li className="home__list-item">
-            <img src={butterfly} className="home__icon invert"></img>
+            <img src={butterfly} className="home__icon invert" alt="Butterfly"></img>
             <h3>Tarot Cards</h3>
             <p>
               Explore the mystic realm of tarot online. Delve into the practice 
@@ -76,7 +70,7 @@ export default function Home() {
             </p>
           </li>
           <li className="home__list-item">
-            <img src={butterflyTwo} className="home__icon"></img>
+            <img src={butterflyTwo} className="home__icon" alt="Butterfly Two"></img>
             <h3>Numerology</h3>
             <p>
               Discover the hidden power of numbers through our numerology tools.
@@ -87,21 +81,7 @@ export default function Home() {
             </p>
           </li>
         </ul>
-        <img src={moonPhases} className="home__img--second-section"></img>
-      </section>
-
-      <section className="home__third-section">
-        <div className="home__form-wrapper">
-          <article>
-            <h2 className="home__heading--third-section">
-              Curious about your zodiac sign?
-            </h2>
-            <h3 className="home__sub-heading--third-section">
-              Sign up for our newsletter!
-            </h3>
-          </article>
-          <SubscribeForm onSubmit={handleSubmit} />
-        </div>
+        <img src={moonPhases} className="home__img--second-section" alt="Moon Phases"></img>
       </section>
     </div>
   );
