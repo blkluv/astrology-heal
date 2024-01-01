@@ -4,10 +4,14 @@ import ZodiacCard from '../../components/ZodiacCard/ZodiacCard.tsx';
 import Loading from '../../components/Loading/Loading.tsx';
 import { ZodiacProps } from '../../types/Zodiac.types.ts';
 
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
 import './Zodiac.css';
 
 function Zodiac() {
-  const url = 'https://zodiac-signs-api.herokuapp.com/api/get/signs';
+  const url = 'https://jps-tarot-api.azurewebsites.net/api/Zodiac/Get';
   const { data: signs, error, loading } = useFetch<ZodiacProps[]>(url);
 
   if (error) {
@@ -19,6 +23,9 @@ function Zodiac() {
       <h1>Astrology</h1>
       {error && <div>{error?.message}</div>}
       {loading && <Loading />}
+      <div className="image-container"> {/* Added container for the image */}
+        <img src={owlHead} className="astrology__image" alt="Owl headed man" />
+      </div>
       <p className="description">
         Astrology is an ancient and complex system of divination that has been
         practiced for thousands of years. Its origins can be traced back to
@@ -28,7 +35,7 @@ function Zodiac() {
         the time of a person's birth. Each sign is associated with specific
         personality traits and characteristics.
       </p>
-      <img src={owlHead} className="astrology__image" alt="Owl headed man" />
+
       <div className="astrology__list">
         {signs?.map((sign) => (
           <ZodiacCard key={sign.id} sign={sign} />

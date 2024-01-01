@@ -1,5 +1,10 @@
 .zodiac {
+  text-align: center;
   min-height: 100vh;
+}
+
+.zodiac h1 {
+  margin-top: 0;
 }
 
 .astrology__image {

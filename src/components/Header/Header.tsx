@@ -68,7 +68,7 @@ export default function Header() {
               }
               onClick={closeMenu}
             >
-              Zodiac Signs
+              Astrology
             </NavLink>
           </li>
           <li className="nav__item">

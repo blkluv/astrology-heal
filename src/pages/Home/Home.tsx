@@ -14,12 +14,12 @@ export default function Home() {
       <section className="home__first-section">
         <div className="home__info">
           <h1 className="home__logo">heal☾</h1>
-          <h2 className="home__heading">Let's Heal The World</h2>
+          <h2 className="home__heading">We Pay You To HealXYZ</h2>
           <p className="home__subheading">
-             Join our quest to heal the world with an easy Q&A game. 
-             Subscribe and answer spiritual healing questions to level 
-             up, earn $LUV, crystals, and gain access to live events.
-             Level up to become a master Heal®️✨?
+           Subscribe to the future of spirituality by joining our <a href='https://tiktok.com/@healxyz' target='_blank'>Discord</a> tribe.
+           Discover more about your spiritual journey by asking questions, receiving a palm reading, or finding your soulmate during our
+           zodiac matchmaking events. Create algorithm free social media posts and embed TikTok videos to promote your Master Heal®️✨
+           spiritual services.
           </p>
           <Button
             as="link"
@@ -44,17 +44,19 @@ export default function Home() {
       </section>
 
       <section className="home__second-section">
-        <h2 className="home__heading">Q&A Game Guide</h2>
+        <h2 className="home__heading">HealXYZ Guide</h2>
         <ul className="home__list">
           <li className="home__list-item">
             <img src={moth} className="home__icon invert" alt="Moth"></img>
-            <h3>Zodiac Signs</h3>
+            <h3>Palm Reading</h3>
             <p>
-              Embark on a cosmic adventure within our Discord game. Explore your
-              birth chart, uncover the secrets of your sun, moon, and rising signs,
-              and gain insights into your in-game destiny influenced by celestial
-              movements. Master the art of navigating your fate with guidance from
-              our expert players.
+              We made getting a palm reading as simple as DM'ing us a picture of your
+              palm to our <a href="https://tiktok.com/@healxyz" target="_blank">@Healxyz</a> 
+              TikTok or by subscribing to our HealXYZ Discord. A palm reading can 
+              provide you with valuable insights into your past, present, and potential
+              future. It can help you to understand the patterns and cycles in your life. 
+              Purchase a palm reading <a href="https://buy.stripe.com/eVa6pJ25F3rm1XyaEI" target="_blank"><strong>here.</strong></a>
+
             </p>
           </li>
           <li className="home__list-item">
