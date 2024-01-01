@@ -11,7 +11,7 @@ import { ZodiacProps } from '../../types/Zodiac.types.ts';
 import './Zodiac.css';
 
 function Zodiac() {
-  const url = 'https://jps-tarot-api.azurewebsites.net/api/Zodiac/Get';
+  const url = 'https://jps-tarot-api.azurewebsites.net/swagger/index.html';
   const { data: signs, error, loading } = useFetch<ZodiacProps[]>(url);
 
   if (error) {
