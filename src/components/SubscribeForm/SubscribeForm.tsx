@@ -8,12 +8,12 @@ const SubscribeForm = () => {
               Start HealN
             </h1>
             <p className="text-gray-400 dark:text-gray-400">
-              Start in the Waiting Area for free, subscribe to start your quest.
+              Start in the Waiting Area for free, subscribe to start your tribe called Healing quest.
             </p>
           </div>
           <div className="m-7">
             <button
-              onClick={() => window.location.href = 'https://discord.gg/EMrwEPwcQU'}
+              onClick={() => window.location.href = 'https://discord.com/servers/healxyz-1165931081564946443'}
               className="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none"
             >
               HealXYZ Discord

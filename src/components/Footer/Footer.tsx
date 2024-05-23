@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer__download">
-      <a href="https://discord.gg/EMrwEPwcQU">
+      <a href="https://discord.com/servers/healxyz-1165931081564946443 ">
           <img src={downloadApple} alt="Download on the App Store" />
         </a>
         <a href="https://nftv.luvnft.com">
@@ -31,7 +31,7 @@ export default function Footer() {
           </a>
         </li>
         <li>
-          <a href="https://nftv.luvnft.com">
+          <a href="https://discord.com/servers/healxyz-1165931081564946443 ">
             <i className="fa-brands fa-free-code-camp"></i>
           </a>
         </li>

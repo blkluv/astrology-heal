@@ -13,13 +13,13 @@ export default function Home() {
     <div className="home">
       <section className="home__first-section">
         <div className="home__info">
-          <h1 className="home__logo">heal☾</h1>
-          <h2 className="home__heading">We Pay You To HealXYZ</h2>
+          <h1 className="home__logo">MANIFEST IT☾</h1>
+          <h2 className="home__heading">Tap Into The PPV Heal®️ Economy</h2>
           <p className="home__subheading">
-           Subscribe to the future of spirituality by joining our <a href='https://tiktok.com/@healxyz' target='_blank'>Discord</a> tribe.
-           Discover more about your spiritual journey by asking questions, receiving a palm reading, or finding your soulmate during our
-           zodiac matchmaking events. Create algorithm free social media posts and embed TikTok videos to promote your Master Heal®️✨
-           spiritual services.
+           HealXYZ is the Web5 (Web2 + Web3) spiritual 5D-Commerce tribe PPV network powered by Love Money. HealXYZ Discord subscribers
+           receive monthly airdrops of Love Money, which they can spread h2h (Heart-to-heart) within their Discord tribe, LUV metaverse,
+           and IRL (In Real Life) for dating or tipping. Subscribers buy and sell spiritual services and products as D-commerce (digital
+           currency) from verified Heal®️’s around the world. 
           </p>
           <Button
             as="link"
@@ -31,7 +31,14 @@ export default function Home() {
           <Button
             as="link"
             children="Subscribe →"
-            url={'https://discord.gg/EMrwEPwcQU'} // Discord invite link
+            url={'https://discord.com/servers/healxyz-1165931081564946443 '} // Discord invite link
+            target={'_blank'}
+            className="home__button" // You may want to apply appropriate styles
+          />
+            <Button
+            as="link"
+            children="@healxyz TikTok →"
+            url={'https://tiktok.com/@healxyz'} // Discord invite link
             target={'_blank'}
             className="home__button" // You may want to apply appropriate styles
           />
@@ -44,41 +51,47 @@ export default function Home() {
       </section>
 
       <section className="home__second-section">
-        <h2 className="home__heading">HealXYZ Guide</h2>
+        <h2 className="home__heading">HEALXYZ PPV DISCORD TIERS</h2>
         <ul className="home__list">
           <li className="home__list-item">
             <img src={moth} className="home__icon invert" alt="Moth"></img>
-            <h3>Palm Reading</h3>
+            <h3>✨ HEAL</h3>
             <p>
-              We made getting a palm reading as simple as DM'ing us a picture of your
-              palm to our <a href="https://tiktok.com/@healxyz" target="_blank">@Healxyz</a> 
-              TikTok or by subscribing to our HealXYZ Discord. A palm reading can 
-              provide you with valuable insights into your past, present, and potential
-              future. It can help you to understand the patterns and cycles in your life. 
-              Purchase a palm reading <a href="https://buy.stripe.com/eVa6pJ25F3rm1XyaEI" target="_blank"><strong>here.</strong></a>
-
+              Are you seeking answers and guidance regarding spiritual healing? Subscribe to
+              our channel and claim your $20,000 in Love Money. If you have any questions, please
+              reach out to a healer in the #aah channel. You can also find information on magical
+              potions and natural healing remedies in the #health channel. Remember, we all have the
+              ability to heal others by sending them love in the form of Love Money. However, it's
+              important to prioritize our own healing before we can level up to date others.
             </p>
           </li>
           <li className="home__list-item">
             <img src={butterfly} className="home__icon invert" alt="Butterfly"></img>
-            <h3>Tarot Cards</h3>
+            <h3>✨DATING</h3>
             <p>
-              Explore the mystic realm of tarot online. Delve into the practice 
-              of divination with tarot card readings, gain insight into the meaning
-              of each card, and receive counsel on matters of love, career, and
-              spirituality. Our Master HealR tarot readers are ready to assist
-              you in revealing the concealed wisdom held by the cards.
+              Are you spiritually single and ready to mingle? HealXYZ is paying
+              subscribers 20K in Love Money (ONE $LUV) to use for flirting in our
+              PPV Discord channels #soulmate #matchmaker #talk or in a @HealXYZ
+              social media post. Post a dating ad in #soulmate with the compatible
+              zodiac you’re manifesting with your Love Money account number. Set up
+              the #matchmaker tinder-like bot to send you auto matches daily. When
+              someone sends you Love Money join them in the #talk channel live. Schedule
+              a Discord event to go on a live (audio + video) date or use your Love Money
+              to go on a live @HealXYZ social media date. 
             </p>
           </li>
           <li className="home__list-item">
             <img src={butterflyTwo} className="home__icon" alt="Butterfly Two"></img>
-            <h3>Numerology</h3>
+            <h3>✨BIZ </h3>
             <p>
-              Discover the hidden power of numbers through our numerology tools.
-              Delve into the frequencies and forces linked to your name and birthdate,
-              explore the mysteries of numerical computations, and attain deep
-              understandings of your life's meaning. Embark on this voyage of
-              self-exploration to Heal X, Y & Z.
+              All business is spiritual. Manifest your new spiritual career by subscribing
+              to the Web5 HealXYZ Discord to claim your $100K in Love Money. Subscribers can
+              join the #counseling #wealth and verified Heal®️ channels for guidance or create
+              a branded Discord channel and LUV Metaverse channel for their tribe. The first
+              verified Heal®️ is the Ancient Aliens star and famous Gemologist Leela Hutchinson.
+              HealXYZ Twin Flame creators The Wizard Hahz 💞 Dr.Candy host live episodes and answer
+              all questions by subscribers. Use Love Money to promote your ✨Biz live on the @HealXYZ
+              socials.
             </p>
           </li>
         </ul>
