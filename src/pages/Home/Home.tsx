@@ -13,7 +13,7 @@ export default function Home() {
     <div className="home">
       <section className="home__first-section">
         <div className="home__info">
-          <h1 className="home__logo">MANIFEST IT☾</h1>
+          <h1 className="home__logo">manifest it☾</h1>
           <h2 className="home__heading">Tap Into The PPV Heal®️ Economy</h2>
           <p className="home__subheading">
            HealXYZ is the Web5 (Web2 + Web3) spiritual 5D-Commerce tribe PPV network powered by Love Money. HealXYZ Discord subscribers
