@@ -55,14 +55,15 @@ export default function Home() {
         <ul className="home__list">
           <li className="home__list-item">
             <img src={moth} className="home__icon invert" alt="Moth"></img>
-            <h3>✨ HEAL</h3>
+            <h3>✨HEAL</h3>
             <p>
               Are you seeking answers and guidance regarding spiritual healing? Subscribe to
               our channel and claim your $20,000 in Love Money. If you have any questions, please
               reach out to a healer in the #aah channel. You can also find information on magical
               potions and natural healing remedies in the #health channel. Remember, we all have the
               ability to heal others by sending them love in the form of Love Money. However, it's
-              important to prioritize our own healing before we can level up to date others.
+              important to prioritize our own healing before we can level up to date others. Subscribe
+              today with a free 7 day trail.
             </p>
           </li>
           <li className="home__list-item">
@@ -89,9 +90,9 @@ export default function Home() {
               join the #counseling #wealth and verified Heal®️ channels for guidance or create
               a branded Discord channel and LUV Metaverse channel for their tribe. The first
               verified Heal®️ is the Ancient Aliens star and famous Gemologist Leela Hutchinson.
-              HealXYZ Twin Flame creators The Wizard Hahz 💞 Dr.Candy host live episodes and answer
-              all questions by subscribers. Use Love Money to promote your ✨Biz live on the @HealXYZ
-              socials.
+              HealXYZ Twin Flame creators The Wizard of Hahz and 💞 Dr.Candy host live episodes
+              and answer all questions by subscribers. Use Love Money to promote your ✨Biz live
+              on the @HealXYZ socials.
             </p>
           </li>
         </ul>
